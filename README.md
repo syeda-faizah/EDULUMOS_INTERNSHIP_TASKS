@@ -14,11 +14,16 @@ This repository contains the work completed for Task 04 – Exploratory Data Ana
 
 To run the Jupyter Notebook:
 
-Clone the repository: git clone <repository_url>
+1. **Clone the repository**  
+   Use the actual repository URL (not the edit page):  
+   ```bash
+   git clone https://github.com/syeda-faizah/EDULUMOS_INTERNSHIP_TASKS.git
+   
+2. Install dependencies:
+pip install pandas numpy seaborn matplotlib
 
-Install dependencies: pip install pandas numpy seaborn matplotlib
-
-Open the notebook: jupyter notebook Task_04_Titanic_EDA.ipynb
+3. Open the notebook:
+jupyter notebook Task_04_Titanic_EDA.ipynb
 
 ## Summary of Analysis
 
