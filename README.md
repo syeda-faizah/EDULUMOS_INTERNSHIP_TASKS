@@ -20,12 +20,10 @@ To run the Jupyter Notebook:
    git clone https://github.com/syeda-faizah/EDULUMOS_INTERNSHIP_TASKS.git
    
 2. **Install dependencies**
-   
-pip install pandas numpy seaborn matplotlib
+   pip install pandas numpy seaborn matplotlib
 
 3. **Open the notebook**
-   
-jupyter notebook Task_04_Titanic_EDA.ipynb
+   jupyter notebook Task_04_Titanic_EDA.ipynb
 
 ## Summary of Analysis
 
