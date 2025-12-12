@@ -4,11 +4,11 @@ This repository contains the work completed for Task 04 – Exploratory Data Ana
 
 ## Files Included
 
-| File Name                   | Description                                               |
-|-----------------------------|-----------------------------------------------------------|
-| train.csv                   | Dataset used for analysis                                 |
-| Task_04_Titanic_EDA.ipynb  | Jupyter Notebook containing all EDA code & visualizations |
-| Task_04_Report.pdf          | Final report with insights, graphs, and conclusions      |
+| File Name                                    | Description                                               |
+|----------------------------------------------|-----------------------------------------------------------|
+| train.csv                                    | Dataset used for analysis                                 |
+| SyedaFaizah_Week1_Task04_TitanicEDA.ipynb    | Jupyter Notebook containing all EDA code & visualizations |
+| SyedaFaizah_Week1_Task04_Report.pdf          | Final report with insights, graphs, and conclusions       |
 
 ## Getting Started
 
@@ -23,7 +23,7 @@ To run the Jupyter Notebook:
     pip install pandas numpy seaborn matplotlib
 
 3. **Open the notebook**:
-   jupyter notebook Task_04_Titanic_EDA.ipynb
+   jupyter notebook SyedaFaizah_Week1_Task04_TitanicEDA.ipynb
 
 ## Summary of Analysis
 
@@ -71,9 +71,9 @@ Fare and social factors influenced survival outcomes
 
 ## Metadata
 
-Submitted By: Syeda Faizah
+Submitted By: *Syeda Faizah*
 
-Course: Data Analytics
+Course: *Data Analytics*
 
 Submission: December 2025
 
