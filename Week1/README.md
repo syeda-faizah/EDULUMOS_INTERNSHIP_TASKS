@@ -1,4 +1,4 @@
-# Task 04: Titanic Dataset – Exploratory Data Analysis (EDA)
+# Titanic Dataset – Exploratory Data Analysis (EDA)
 
 This repository contains the work completed for Task 04 – Exploratory Data Analysis (EDA) of the Titanic dataset as part of the Data Analytics coursework.
 
