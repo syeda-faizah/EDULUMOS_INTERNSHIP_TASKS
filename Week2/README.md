@@ -5,8 +5,11 @@
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
 **Internship:** EduLumos Data Science Internship  
+
 **Task:** Task 2 – Linear Regression using Simple Dataset – House Price Prediction 
+
 **Name:** Syeda Faizah  
+
 **Domain:** Data Science  
 
 ---
@@ -103,14 +106,14 @@ pip install pandas numpy matplotlib seaborn scikit-learn
 
 3. Open and run the notebook:
 ```bash
-jupyter notebook SyedaFaizah_Week2_HousePricePrediction.ipynb
+jupyter notebook SyedaFaizah_Week2_Task02_HousePricePrediction.ipynb
 ```
 
 ## Folder Contents
 
-- `SyedaFaizah_Week2_HousePricePrediction.ipynb` → Jupyter Notebook with full code  
+- `SyedaFaizah_Week2_Task02_HousePricePrediction.ipynb` → Jupyter Notebook with full code  
 - `house_price_train.csv` → Dataset used for training  
-- `SyedaFaizah_Week2_Report.pdf` → Internship report for Task 2  
+- `SyedaFaizah_Week2_Task02_Report.pdf` → Internship report for Task 2  
 - `README.md` → This file
 
 ## Conclusion
