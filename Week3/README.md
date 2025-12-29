@@ -2,6 +2,8 @@
 
 This repository contains the work completed for Week 3 – Sentiment Analysis of Amazon Reviews as part of the Data Analytics coursework.
 
+The project focuses on classifying Amazon customer reviews into **positive** and **negative** sentiments using **Natural Language Processing (NLP)** and **Machine Learning** techniques.
+
 ## Files Included
 
 | File Name                                        | Description                                                                                         |
@@ -27,52 +29,84 @@ Open the notebook:
 
 jupyter notebook SyedaFaizah_Week3_Task05_SentimentAnalysis.ipynb
 
+## Dataset Overview
+
+- **Dataset Shape:** (4914, 2)
+- **Columns Used:**
+  - `reviewText` – Customer review text
+  - `overall` – Rating score used to derive sentiment labels
+- Neutral reviews (rating = 3) were excluded for binary classification.
+- Dataset was provided by the company for internship purposes.
+
+---
+
+## Tools & Technologies
+
+- Python
+- Pandas, NumPy
+- Scikit-learn
+- TF-IDF Vectorization
+- Logistic Regression
+- Matplotlib & Seaborn (for visualizations)
+
+---
+
 ## Summary of Analysis
 
-The project focuses on classifying Amazon reviews into positive or negative sentiments based on review text and rating.
+The project involves classifying Amazon reviews into **positive** and **negative** sentiments based on review text.
 
-Key steps included:
+### Key Steps:
+- **Data Preprocessing**
+  - Removed missing and empty reviews
+  - Converted ratings into sentiment labels (≥4 → positive, ≤2 → negative)
+  - Removed neutral and duplicate reviews
 
-Data Preprocessing: Cleaned missing and empty reviews, converted ratings into sentiment labels (≥4 = positive, ≤2 = negative), removed neutral reviews.
+- **Feature Extraction**
+  - Applied **TF-IDF Vectorization** with:
+    - `max_features = 5000`
+    - English stopword removal
 
-Feature Extraction: Transformed text data into numerical features using TF-IDF Vectorization.
+- **Model Training**
+  - Logistic Regression model
+  - 80% training data, 20% testing data
 
-Model Training: Used Logistic Regression to train on TF-IDF features.
-
-Model Evaluation: Evaluated using accuracy and classification metrics to assess performance.
+---
 
 ## Visualizations & Outputs
 
-Distribution of positive and negative reviews
+The following visualizations were generated to understand data distribution and model performance:
 
-Sample predictions for new reviews
+- **Sentiment Distribution Bar Chart** – shows the balance between positive and negative reviews
+- **Word Clouds** – highlights frequently occurring words in positive and negative reviews
+- **Confusion Matrix Heatmap** – evaluates classification performance
 
-Accuracy and classification metrics
+---
 
 ## Key Insights
 
-Positive reviews dominate the dataset.
+- Positive reviews dominate the dataset.
+- Logistic Regression achieved **94.45% accuracy** on the test set.
+- The confusion matrix indicates strong performance across both sentiment classes.
+- Sample predictions align well with intuitive sentiment interpretation.
 
-Logistic Regression achieved 94.45% accuracy on the test set.
-
-Sample review predictions match intuitive sentiment.
+---
 
 ## Future Scope
 
-Include neutral sentiment classification for multi-class analysis
+- Extend to **multi-class sentiment analysis** by including neutral reviews
+- Experiment with advanced NLP models such as **BERT** or **LSTM**
+- Perform sentiment trend analysis across time or product categories
 
-Experiment with advanced NLP models like BERT or LSTM
-
-Perform sentiment trend analysis over time or across product categories
+---
 
 ## Metadata
 
-Submitted By: Syeda Faizah
+- **Submitted By:** Syeda Faizah  
+- **Internship:** EduLumos – Data Analytics  
+- **Submission:** December 2025  
 
-Course: Data Analytics
-
-Submission: December 2025
+---
 
 ## Dataset Source
 
-Dataset provided by the company for internship purposes, also publicly available on Kaggle
+Dataset provided by the company for internship purposes and also publicly available on Kaggle.
