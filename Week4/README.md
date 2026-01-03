@@ -10,7 +10,7 @@ The project analyzes Netflix’s content library to uncover trends in **content 
 
 |                  File Name                   |                                  Description                                |
 |----------------------------------------------|-----------------------------------------------------------------------------|
-| `netflix_titles.csv`                         | Dataset containing Netflix Movies and TV Shows                              |
+| `netflix_titles_clean.csv`                   | Dataset containing Netflix Movies and TV Shows                              |
 | `SyedaFaizah_Week4_Task03_Netflix_EDA.ipynb` | Jupyter Notebook with data preprocessing, feature engineering, and analysis |
 | `SyedaFaizah_Week4_Task03_Report.pdf`        | Final report with methodology, results, visualizations, and conclusions     |
 
