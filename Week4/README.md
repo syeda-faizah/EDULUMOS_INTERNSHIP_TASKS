@@ -119,3 +119,5 @@ Submission: January 2026
 
 ## Dataset Source
 Publicly available on Kaggle: Netflix Movies and TV Shows
+
+https://www.kaggle.com/datasets/shivamb/netflix-shows
